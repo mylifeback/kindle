@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- <style type="text/css">
+    @import url('http://192.168.1.27:8081/kindle/src/AnandaBlack.svg#Ananda_Black');
+
+</style> -->
+<!-- <font>
+    <font-face font-family="Ananda Black">
+        <font-face-src>
+            <font-face-uri href="./src/AnandaBlack.svg#Ananda_Black" />
+        </font-face-src>
+    </font-face>
+</font> -->
+
+<title> testing svg</title>
+<link rel="icon" type="image/x-icon" href="/kindle/src/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="./src/main.css" />
+
+</head>
+
+<body>
+
+<!-- <svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+    <font-face font-family="Ananda Black">
+        <font-face-src>
+            <font-face-uri href="./src/AnandaBlack.svg#Ananda_Black" />
+        </font-face-src>
+    </font-face>
+<text style="font-family: 'Ananda Black';" font-size="28" > my text uses Black</text>
+</svg> -->
+
+
+<div> hello </div>
+<span id="id"> hello </span>
+<script>
+    var t = 0;
+    var element = document.getElementById("id");
+    element.textContent = "world";
+    setInterval(add, 1000);
+
+    function add (){
+        t = t + 1;
+        element.textContent = t;
+    }
+</script>    
+
+</body>
+
+
+    
+</html>

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "linford";
+    src: url("./linford.svg#linfordregular") format("svg");
+}
+
+div {
+    font-family: 'linford', cursive;
+    font-size: 8em;
+}
+
+#id {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6em;
+}
